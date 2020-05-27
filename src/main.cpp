@@ -29,18 +29,18 @@ std::string uwufy(std::string& line)
     //  ohh   -> uh
     */
     replaceAllOccurrences(line, "th", "d");
-	replaceAllOccurrences(line, "l", "w");
-	replaceAllOccurrences(line, "r", "w");
-	replaceAllOccurrences(line, "ou", "uw");
-	replaceAllOccurrences(line, "ohh", "uh");
+    replaceAllOccurrences(line, "l", "w");
+    replaceAllOccurrences(line, "r", "w");
+    replaceAllOccurrences(line, "ou", "uw");
+    replaceAllOccurrences(line, "ohh", "uh");
 
-	replaceAllOccurrences(line, "Th", "D");
-	replaceAllOccurrences(line, "TH", "D");
+    replaceAllOccurrences(line, "Th", "D");
+    replaceAllOccurrences(line, "TH", "D");
 
-	replaceAllOccurrences(line, "L", "W");
-	replaceAllOccurrences(line, "R", "W");
-	replaceAllOccurrences(line, "OU", "UW");
-	replaceAllOccurrences(line, "Ohh", "Uhh");
+    replaceAllOccurrences(line, "L", "W");
+    replaceAllOccurrences(line, "R", "W");
+    replaceAllOccurrences(line, "OU", "UW");
+    replaceAllOccurrences(line, "Ohh", "Uhh");
 
     return line;
 }
