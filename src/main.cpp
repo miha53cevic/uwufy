@@ -73,17 +73,30 @@ void help()
 int main(int argc, char* argv[])
 {
     if (argc < 2)
+    {
         std::cout << "No arguments given!" << std::endl;
+        help();
+    }
     else if (argc == 2)
     {
         stringMode(argv[1]);
     }
-    else if (argc == 3)
+    else if (argc >= 3)
     {
         if (argv[1] == std::string("--file") || argv[1] == std::string("-f"))
             fileMode(argv[2]);
+        else
+        {
+            std::string args = std::string();
+            for (int i = 1; i < argc; i++)
+            {
+                args += argv[i];
+                args += " ";
+            }
+
+            stringMode(args);
+        }
     }
-    else help();
 
     return 0;
 }
