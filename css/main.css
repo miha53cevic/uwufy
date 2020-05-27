@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+}
+
+body {
+    margin: 0;
+}
+
+/*------------------------------------------------------------------------------------*/
+
+.main {
+    display: flex;
+    flex-direction: column;
+    background: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+.title {
+    text-align: center;
+    color: white;
+}
+
+.title > h1 {
+    font-family: "Allerta Stencil";
+}
+
+.textArea {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin: 2rem 2rem 1rem 2rem;
+}
+
+.textArea > textarea {
+    flex: 1;
+    font-size: x-large;
+    resize: none;
+}
+
+#before {
+    margin-right: 1rem;
+}
+
+.button {
+    width: 12.5rem;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    align-self: center;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: gray;
+    cursor: pointer;
+}
