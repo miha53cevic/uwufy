@@ -22,7 +22,7 @@ body {
     color: white;
 }
 
-.title > h1 {
+.title>h1 {
     font-family: "Allerta Stencil";
 }
 
@@ -33,9 +33,9 @@ body {
     margin: 2rem 2rem 1rem 2rem;
 }
 
-.textArea > textarea {
+.textArea>textarea {
     flex: 1;
-    font-size: x-large;
+    font-size: small;
     resize: none;
 }
 
@@ -58,4 +58,11 @@ body {
 .button:hover {
     background-color: gray;
     cursor: pointer;
+}
+
+@media screen and (min-width: 640px) {
+ 
+    .textArea>textarea {
+        font-size: x-large;
+    }
 }
