@@ -21,11 +21,12 @@ void replaceAllOccurrences(std::string& string, const std::string& searchStr, co
 std::string uwufy(std::string& line)
 {   
     /*
-        The uwu Language
-        th    -> d
-        l,r   -> w
-        ou    -> uw
-        ohh   -> uh
+    //  The uwu Language
+    //  ------------------
+    //  th    -> d
+    //  l,r   -> w
+    //  ou    -> uw
+    //  ohh   -> uh
     */
     replaceAllOccurrences(line, "th", "d");
 	replaceAllOccurrences(line, "l", "w");
