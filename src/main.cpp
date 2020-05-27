@@ -39,6 +39,7 @@ std::string uwufy(std::string& line)
 
 	replaceAllOccurrences(line, "L", "W");
 	replaceAllOccurrences(line, "R", "W");
+	replaceAllOccurrences(line, "OU", "UW");
 	replaceAllOccurrences(line, "Ohh", "Uhh");
 
     return line;
