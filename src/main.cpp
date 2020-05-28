@@ -68,7 +68,7 @@ void stringMode(std::string string)
 
 void help()
 {
-    std::cout << "\tUsage\n";
+    std::cout << "\nUsage\n";
     std::cout << "-f or --file\tEnable file input\n";
 }
 
